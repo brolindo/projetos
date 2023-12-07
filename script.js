@@ -17,8 +17,8 @@ form.addEventListener("submit", function(event){
     console.log(input.value);
 
     if (input.value !== "") {
-        const span = document.querySelector(".result-text")
-        span.innerHTML = inverterString(input.value);
+        const textarea = document.querySelector("#result-text")
+        textarea.innerHTML = inverterString(input.value);
     }
     else{
         alert("Nada foi digitado");
