@@ -61,3 +61,7 @@ button:focus{
     color: #5f3dc4;
     padding: 8px;
 }
+
+.input {
+    padding: 8px;
+    background-color: #e5dbff;
